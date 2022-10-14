@@ -1,0 +1,20 @@
+.left::-webkit-scrollbar {
+  display: none;
+  border-radius: 10px !important;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.left {
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
+}
+div.sticky {
+  scrollbar-width: none;
+}
+div.sticky:hover {
+  -ms-overflow-style: auto;
+  scrollbar-width: thin !important; /* Firefox */
+}
+input::placeholder {
+  @apply text-gray-500;
+}
